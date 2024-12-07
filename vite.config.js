@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: './', // 设置基础路径为 './' 表示相对路径
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
