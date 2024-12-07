@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["DOM", "ES2015"], // 包括 ES2015 以支持 Promise
+    "moduleResolution": "nodenext",
+    "baseUrl": ".",
+    "paths": {
+      "@paddlejs-models/ocr": ["node_modules/@paddlejs-models/ocr"]
+    }
+    // 其他配置...
+  }
+}
